@@ -4,7 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "webpack": "^4.37.0"
   },
   "dependencies": {
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "vue": "^2.6.10"
   }
 }

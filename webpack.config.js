@@ -16,5 +16,15 @@ module.exports = {
   devServer: {
     // 网站根目录 类比与 apache www目录
     contentBase: "./dist"
+  },
+  module: {
+    // 规则
+    rules: [
+      {
+        // 配置css文件打包
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      }
+    ]
   }
 };

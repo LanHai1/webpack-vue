@@ -1,6 +1,7 @@
 import moment from "moment";
 
 import "./assets/css/index.css";
+import "./assets/css/less.less";
 
 const divApp = document.querySelector("#app");
 setInterval(() => {

@@ -5,13 +5,15 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx webpack --config webpack.config.js"
+    "dev": "npx webpack --config webpack.config.js",
+    "serve": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.37.0"
+    "webpack": "^4.37.0",
+    "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
     "moment": "^2.24.0",

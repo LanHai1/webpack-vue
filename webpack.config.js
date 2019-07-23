@@ -11,5 +11,10 @@ module.exports = {
     filename: "bundle.js",
     // 打包后的路径
     path: path.resolve(__dirname, "dist")
+  },
+  // 开发服务器
+  devServer: {
+    // 网站根目录 类比与 apache www目录
+    contentBase: "./dist"
   }
 };
